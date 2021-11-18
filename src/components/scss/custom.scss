@@ -14,10 +14,33 @@ body {
 	font-size: 15vw;
 }
 
+// input group item
+.input-group {
+	font-family: "Recursive", cursive;
+}
+
+//Add item
+.custom-add-input {
+	font-size: 3.5vw;
+}
+// Add button
+.custom-add-btn {
+	font-size: 3.5vw;
+}
+
 // Medium devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	.custom-heading {
 		font-size: 15vw;
+	}
+
+	//Add item
+	.custom-add-input {
+		font-size: 1.5vw;
+	}
+	// Add button
+	.custom-add-btn {
+		font-size: 1.5vw;
 	}
 }
 
@@ -25,5 +48,14 @@ body {
 @media (min-width: 1200px) {
 	.custom-heading {
 		font-size: 10vw;
+	}
+
+	//Add item
+	.custom-add-input {
+		font-size: 1vw;
+	}
+	// Add button
+	.custom-add-btn {
+		font-size: 1vw;
 	}
 }
