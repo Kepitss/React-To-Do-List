@@ -24,6 +24,31 @@ body {
   font-size: 3.5vw;
 }
 
+.form-check-input {
+  background-color: #0e1111;
+  border: 0.15vw solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.list-group-item {
+  background-color: #0e1111;
+  color: #fff;
+  border-bottom: 0.15vw solid rgba(255, 255, 255, 0.4);
+  border-radius: none;
+  font-family: "Recursive", cursive;
+}
+.list-group-item h5 {
+  word-break: break-all;
+}
+
+/* Completed */
+.done {
+  opacity: 0.4;
+}
+.done label {
+  text-decoration: line-through;
+}
+
 @media (min-width: 992px) {
   .custom-heading {
     font-size: 15vw;

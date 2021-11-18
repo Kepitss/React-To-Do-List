@@ -28,6 +28,35 @@ body {
 	font-size: 3.5vw;
 }
 
+// checkbox
+.form-check-input {
+	background-color: #0e1111;
+	border: 0.15vw solid rgba($color: #fff, $alpha: 0.4);
+	cursor: pointer;
+}
+
+// list goup item
+.list-group-item {
+	background-color: #0e1111;
+	color: #fff;
+	border-bottom: 0.15vw solid rgba($color: #fff, $alpha: 0.4);
+	border-radius: none;
+	font-family: "Recursive", cursive;
+
+	h5 {
+		word-break: break-all;
+	}
+}
+
+/* Completed */
+.done {
+	opacity: 0.4;
+
+	label {
+		text-decoration: line-through;
+	}
+}
+
 // Medium devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	.custom-heading {

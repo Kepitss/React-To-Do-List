@@ -8,10 +8,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/custom.css";
 
 import FormInput from "./FormInput";
+import ToDoList from "./ToDoList";
 
 const App = () => {
 	const [inputText, setInputText] = useState("");
 	const [toDos, setToDos] = useState([]);
+	const [todoEditing, setTodoEditing] = useState(null);
+	const [editingText, setEditingText] = useState("");
 
 	return (
 		<Container fluid="xs">
@@ -24,6 +27,19 @@ const App = () => {
 						setInputText={setInputText}
 						toDos={toDos}
 						setToDos={setToDos}
+					/>
+				</Col>
+			</Row>
+
+			<Row className="justify-content-center">
+				<Col xs={12} lg={8}>
+					<ToDoList
+						toDos={toDos}
+						setToDos={setToDos}
+						todoEditing={todoEditing}
+						setTodoEditing={setTodoEditing}
+						editingText={editingText}
+						setEditingText={setEditingText}
 					/>
 				</Col>
 			</Row>
