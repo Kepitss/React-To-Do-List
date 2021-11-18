@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  background: #0e1111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Extra small devices (phones, less than 768px) */
+.custom-heading {
+  font-family: "Indie Flower", cursive;
+  font-size: 15vw;
+}
+
+@media (min-width: 992px) {
+  .custom-heading {
+    font-size: 15vw;
+  }
+}
+@media (min-width: 1200px) {
+  .custom-heading {
+    font-size: 10vw;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
