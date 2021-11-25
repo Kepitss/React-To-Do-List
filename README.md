@@ -3,9 +3,9 @@
 ###### Live project is [here](https://amazing-darwin-e971f7.netlify.app/)
 
 ## Description
-Good To Do List witch can easy add, change, delete items.
+Good To Do List wich can easy add, change, delete items.
 
-## Technologys used
+## Technologies used
 - React
 - Bootstrap
 - Sass
