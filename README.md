@@ -1,5 +1,5 @@
 # React To Do List
-[![test image](https://github.com/Kepitss/ReactToDoList/blob/main/react-todo-list.png?raw=true)](https://amazing-darwin-e971f7.netlify.app/) 
+[![test image](https://github.com/Kepitss/ReactToDoList/blob/main/react-todo-list.png?raw=true)](https://amazing-to-do-list.netlify.app/) 
 ###### Live project is [here](https://amazing-to-do-list.netlify.app/)
 
 ## Description
